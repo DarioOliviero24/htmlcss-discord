@@ -100,9 +100,9 @@ html {
     font-size: 16px;
     border-radius: 20px 20px 20px 20px;
     margin-left: 45%;
+    margin-bottom: 100px;
 }
 .button5 {
-    margin-left: 1200px;
     background-color: #7289da;
     border: 1px #7289da;
     color: white;
@@ -231,6 +231,7 @@ main>section>.frame80-60 {
 main>section>div.flex-property {
     width: 80%;
     margin: auto;
+    
 }
 
 main>section:last-of-type {
@@ -239,6 +240,42 @@ main>section:last-of-type {
 }
 
 /* Footer */
+
 .bg-footer{
     background-color:#23272a;
+}
+footer>section {
+    padding: 30px;
+}
+
+.flex-property {
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+}
+.Ul-li{
+    list-style: none;
+    color: white;
+}
+.Color{
+    color: #7289da;
+}
+.ita{
+height: 15px;
+width: 20px;
+}
+.h3{
+    display: inline;
+    text-align: center;
+    
+    
+}
+.flex{
+    
+    display: flex;
+    align-content: center;
+}
+i{
+    color: white;
 }
