@@ -1,0 +1,85 @@
+/* Debugging */
+
+.debug.true>header {
+    background-color: #ADD8E6;
+}
+
+.debug.true>header>nav {
+    background-color: #DAA520;
+    border: 2px dashed black;
+}
+
+.debug.true .logo,
+.debug.true .navbar,
+.debug.true .login-section {
+    border: 5px dashed red;
+}
+
+.debug.true>main>section:first-child {
+    background-color: #00008B;
+}
+
+.debug.true>main>section>.frame60-50 {
+    background-color: #EE82EE;
+    border: 2px dashed black;
+    width: 60%;
+    min-height: 500px;
+}
+
+.debug.true>main>section>.frame80-60 {
+    background-color: green;
+    border: 2px dashed black;
+    width: 80%;
+    min-height: 600px;
+}
+
+.debug.true>main>section>div.flex-property {
+    border: 1px dashed purple;
+}
+
+.debug.true>main>section>div.flex-property>.perc30 {
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+.debug.true>main>section>div.flex-property>.perc40 {
+    background-color: #FBBDC8;
+    border: 2px dashed black;
+    min-height: 400px;
+}
+
+.debug.true>main>section>div.flex-property>.perc60 {
+    background-color: #1E90FF;
+    border: 2px dashed black;
+}
+
+.debug.true>main>section>div.flex-property>.perc70 {
+    background-color: #20B2AA;
+    min-height: 350px;
+}
+
+.debug.true>main>section>div.flex-property>.perc70.flex-property>.perc25 {
+    border: 2px dashed white;
+}
+
+.debug.true>main>section:nth-of-type(2n+3) {
+    background-color: #D3D3D3;
+}
+
+.debug.true>main>section:last-of-type {
+    background-color: #23272A;
+}
+
+.debug.true footer {
+    background-color: #23272A;
+}
+
+.debug.true footer>section>div.flex-property {
+    background-color: #7FFFD4;
+}
+
+.debug.true footer>section>div.flex-property>div {
+    background-color: #FFB7C2;
+    padding: 5px;
+    border: 2px dashed black;
+}
