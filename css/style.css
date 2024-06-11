@@ -1,0 +1,299 @@
+/* Reset */
+
+*:not(ul):not(ol) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    max-width: 100%;
+}
+/* General */
+#Pfoot{
+    display: inline;
+    color: white;
+}
+.Jumbo{
+    text-align: center;
+    background-image: image(img/jumbo.png);
+}
+.flex-property {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Stemma{
+    height: 10px;
+    width: 15px;
+}
+.title-footer{
+    color: #7289da;
+}
+.list{
+   text-align: start;
+   
+}
+.button {
+    background-color: white;
+    border: 1px white;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px 20px 20px 20px;
+}
+.button4{
+    background-color: #7289da;
+    border: 1px #7289da;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 45%;
+}
+.button5 {
+    background-color: #7289da;
+    border: 1px #7289da;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.section{
+    padding: 150px;
+}
+.section2 {
+    padding: 150px;
+}
+.h2 {
+    margin-top: 40px;
+
+}
+.freccia{
+    font-size: x-small;
+}
+.h2special {
+    font-size: xx-large;
+    margin-top: 40px;
+    margin-left: 330px;
+}
+.h2special2 {
+    font-size: xx-large;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.p{
+    
+    margin-top: 40px;
+    margin-left: 270px;
+
+        
+}
+.perc25 {
+    width: 25%;
+}
+
+.perc30 {
+    width: 30%;
+}
+
+.perc40 {
+    width: 40%;
+}
+
+.perc50 {
+    width: 50%;
+}
+
+.perc60 {
+    width: 60%;
+}
+
+.perc70 {
+    width: 70%;
+}
+
+.row-reverse-property {
+    flex-direction: row-reverse;
+}
+
+/* Header */
+
+header {
+    min-height: 100px;
+}
+.BGH{
+    background-color: #255ee9;
+    color: white;
+}
+
+.a{
+    text-decoration:none;
+    color: white;
+}
+.link{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+header>nav {
+    width: 70%;
+    margin: auto;
+    min-height: 50px;
+}
+
+.logo,
+.navbar,
+.login-section {
+    padding: 10px 10px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.login-section {
+    text-align: right;
+}
+
+/* Main */
+
+main>section {
+    padding: 30px;
+}
+
+main>section>.frame60-50{
+    margin:auto;
+}
+main>section>.frame80-60 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+main>section>div.flex-property {
+    width: 80%;
+    margin: auto;
+}
+
+main>section:last-of-type {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/* Footer */
+
+footer>section {
+    padding: 30px;
+}
+.bg-footer{
+    background-color: #23272a;
+
+}
+
+footer>section>div.flex-property {
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+/* Debugging */
+
+.debug.true>header {
+    background-color: #ADD8E6;
+}
+
+.debug.true>header>nav {
+    background-color: #DAA520;
+    border: 2px dashed black;
+}
+
+.debug.true .logo,
+.debug.true .navbar,
+.debug.true .login-section {
+    border: 5px dashed red;
+}
+
+.debug.true>main>section:first-child {
+    background-color: #00008B;
+}
+
+.debug.true>main>section>.frame60-50 {
+    background-color: #EE82EE;
+    border: 2px dashed black;
+    width: 60%;
+    min-height: 500px;
+}
+
+.debug.true>main>section>.frame80-60 {
+    background-color: green;
+    border: 2px dashed black;
+    width: 80%;
+    min-height: 600px;
+}
+
+.debug.true>main>section>div.flex-property {
+    border: 1px dashed purple;
+}
+
+.debug.true>main>section>div.flex-property>.perc30 {
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+.debug.true>main>section>div.flex-property>.perc40 {
+    background-color: #FBBDC8;
+    border: 2px dashed black;
+    min-height: 400px;
+}
+
+.debug.true>main>section>div.flex-property>.perc60 {
+    background-color: #1E90FF;
+    border: 2px dashed black;
+}
+
+.debug.true>main>section>div.flex-property>.perc70 {
+    background-color: #20B2AA;
+    min-height: 350px;
+}
+
+.debug.true>main>section>div.flex-property>.perc70.flex-property>.perc25 {
+    border: 2px dashed white;
+}
+
+.debug.true>main>section:nth-of-type(2n+3) {
+    background-color: #D3D3D3;
+}
+
+.debug.true>main>section:last-of-type {
+    background-color: #23272A;
+}
+
+.debug.true footer {
+    background-color: #23272A;
+}
+
+.debug.true footer>section>div.flex-property {
+    background-color: #7FFFD4;
+}
+
+.debug.true footer>section>div.flex-property>div {
+    background-color: #FFB7C2;
+    padding: 5px;
+    border: 2px dashed black;
+}
