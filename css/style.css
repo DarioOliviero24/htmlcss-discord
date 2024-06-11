@@ -19,7 +19,7 @@ html {
 }
 .Jumbo{
     text-align: center;
-    background-image: image(img/jumbo.png);
+    background-image: url('..img/jumbo.png');
 }
 .flex-property {
     display: flex;
